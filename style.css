@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: yellow;
+}
+
+ul{
+    list-style: none;
+    overflow: hidden;
+    background-color: white;
+}
+
+li{
+    float: right;
+}
+
+.logo{
+    float: left;
+}
+
+.logo img{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+}
+
+li a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 22px;
+    color: teal;
+}
+
+.section1{
+    height: 93vh;
+    width: 100vw;
+    background: url(/wp1877515.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section2{
+    height: 100vh;
+    width: 100vw;
+    background: url(/eevee.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section3{
+    height: 100vh;
+    width: 100vw;
+    background: url(/wp1942962.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section4{
+    height: 100vh;
+    width: 100vw;
+    background: url(/charizard.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section5{
+    height: 100vh;
+    width: 100vw;
+    background: url(/squirtle.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
