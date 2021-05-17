@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
@@ -38,7 +40,7 @@ li a{
 
 .section1{
     height: 93vh;
-    width: 100vw;
+    width: 100%;
     background: url(/wp1877515.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -46,7 +48,7 @@ li a{
 
 .section2{
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background: url(/eevee.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -54,7 +56,7 @@ li a{
 
 .section3{
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background: url(/wp1942962.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -62,10 +64,26 @@ li a{
 
 .section4{
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background: url(/charizard.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section4 h1{
+    color: white;
+    font-size: 55px;
+}
+
+.section4 p{
+    font-size: 25px;
+    text-align: justify;
+    color: whitesmoke;
+    padding: 20px;
 }
 
 .section5{
@@ -75,3 +93,4 @@ li a{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
